@@ -1,10 +1,11 @@
-name: hpc-cpp-env
+name: cpp-hpc-binder
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - jupyter
-  - xeus-cpp  # El kernel de C++ más estándar para Binder/JupyterHub
-  - gcc_linux-64
-  - gxx_linux-64
+  - python=3.10
+  - jupyterlab
+  - xeus-cpp>=0.6.0
+  - nlohmann_json>=3.11.2
+  - gcc_linux-64=12
+  - gxx_linux-64=12
   - make
