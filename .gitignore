@@ -1,16 +1,5 @@
-# Script local de arranque
-start.sh
-
-# Jupyter Notebook & Checkpoints
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# Temp files from Conda & Python
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Binaries and compilation folders
-*.o
-*.out
 build/
+*.o
+*.exe
+.DS_Store
+.ipynb_checkpoints/

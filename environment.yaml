@@ -2,10 +2,19 @@ name: cpp-hpc-binder
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - xeus-cling=0.15.0
+  - cling
+  - matplotlib
   - jupyterlab
-  - xeus-cpp>=0.6.0
-  - nlohmann_json>=3.11.2
-  - gcc_linux-64=12
-  - gxx_linux-64=12
+  - notebook
+  - cppzmq
+  - xtl
+  - xtensor
+  - xtensor-blas
+  - cmake
   - make
+  - gcc_linux-64
+  - gxx_linux-64
+  - pip
+  - pip:
+      - jupyterlab_code_formatter
