@@ -1,8 +1,10 @@
-# CPP HPC
+# CPP Michroarquitecture & Performance Lab
 
 “There are only two kinds of languages: the ones people complain about and the ones nobody uses.” ― Bjarne Stroustrup.
 
-This is a collection of notebooks and practical examples on modern C++ as it relates to performance, microarchitecture, concurrency, and data design. This isn't a course on how to learn to program in C++ (there are excellent resources for that here on GitHub), but rather a set of notes on the more “obscure” aspects of C++—the ones that are often the hardest to grasp.
+Proyecto: C++ Microarchitecture & Performance Lab
+​
+This is a collection of experiments and practical examples on modern C++ as it relates to performance, microarchitecture, concurrency, and data design. This isn't a course on how to learn to program in C++ (there are excellent resources for that here on GitHub), but rather a set of notes on the more “obscure” aspects of C++—the ones that are often the hardest to grasp.
 
 I’ve tried to include examples and performance metrics, because “a speedup is worth a thousand words.”
 
